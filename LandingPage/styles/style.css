@@ -14,13 +14,28 @@ header, footer {
     justify-content: center;
     width: 100%;
     align-items: center;
-    border: 1px solid black;
-    /* background-color: rgb(82, 99, 69);  play with a color scheme! */
+    border: 1px dashed gray;
+    background-color: rgb(35, 52, 81);  
+    font-family: "Audiowide", sans-serif;
+    color:white;
+}
+
+header a:visited{
+    color:antiquewhite;
+}
+
+footer a:visited{
+    color:antiquewhite;
+}
+
+footer{
+    margin-top: 50px;
 }
 
 main {
     font-family: 'Times New Roman', Times, serif; /* try using a google font instead*/
     border: 1px, solid, black;
+    /* margin: 50px; */
 }
 
 nav {
